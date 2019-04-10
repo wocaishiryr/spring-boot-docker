@@ -2,7 +2,7 @@
 #获取基础镜像sailing.com/alpine-base:1.0.0
 FROM openjdk:8-jre-alpine
 #指定维护者信息
-MAINTAINER ryr
+MAINTAINER renyr
 VOLUME /tmp
 ADD target/spring-boot-docker-0.0.1-SNAPSHOT.jar app.jar
 RUN sh -c 'touch /app.jar'
