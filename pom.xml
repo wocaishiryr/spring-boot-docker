@@ -79,6 +79,25 @@
         </plugins>
     </build>
 
+<!--    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                    <mainClass>com.renyr.dockerdemo.DockerDemoApplication</mainClass>
+                    <layout>ZIP</layout>
+                    <includes>
+                        <include>
+                            <groupId>com.renyr</groupId>
+                            <artifactId>spring-boot-docker</artifactId>
+                        </include>
+                    </includes>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>-->
+
     <repositories>
         <repository>
             <id>jcenter</id>
